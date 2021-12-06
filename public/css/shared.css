@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&amp;display=swap");
+
+html,
+body {
+  background-color: #121212;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.has-text-light {
+  color: #ffffff !important;
+}
+
+.has-text-secondary {
+  color: #b3b3b3;
+}
+
+.code-btn {
+  color: #ffffff !important;
+}
+
+.add-wb-box {
+  margin: 0 5% 0 5%;
+}
+
+a,
+a:hover {
+  color: #ffffff;
+}
+
+span {
+  color: #ffffff;
+}
+
+.welcome-container {
+  margin: 90px 0px 0px 70px;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.svg-profile-wb {
+  margin-right: 3%;
+}
+
+svg {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.navbar-item-b {
+  background: url(../../../cdn.badlex.com/assets/branding/welcomebud/logowhiteTransparent.png)
+    no-repeat center center;
+  background-size: cover;
+  width: 120px;
+  margin: 5px 0px 0px 10px;
+}
+
+.add-wb-box {
+  background: url(../../../typedream.sfo3.digitaloceanspaces.com/illustrations/gradients/gradient-1.png)
+    no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  background-color: #181818 !important;
+  margin-bottom: 3%;
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+.navbar-item {
+  color: #ffffff;
+}
+
+.highlighted-text {
+  color: #5865f2;
+}
+
+.welcome-text {
+  color: #ffffff;
+  font-size: 70px;
+}
+
+hr.solid {
+  border-top: 3px solid #404040;
+  margin: 5% 20% 5% 20%;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.stats-container {
+  margin-top: -3%;
+}
+
+.level-item {
+  background-color: #181818;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.url-card {
+  display: block;
+  margin: 50px 0px 0px 50px;
+  padding: 20px;
+}
+
+.input-url {
+  display: inline-block;
+}
+
+.code-input {
+  display: inline-block;
+  width: 100px;
+}
+
+.code-btn {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.icon-guild {
+  float: left;
+  margin: 20px 0px 0px 70px;
+}
+
+.guild-desc {
+  float: right;
+  margin: 20px 0px 0px 70px;
+}
+
+.features-container {
+  margin: 0 5% 0 5%;
+  padding: 20px;
+}
+
+.feature-tip {
+  background-color: #282828;
+  display: block;
+  margin: 15px;
+  color: white;
+  padding: 15px;
+  border-radius: 18px;
+}
+
+.feature-tip-icon {
+  background-color: rgba(255, 255, 255, 0.199);
+  font-size: 20px !important;
+  display: inline-block;
+  border-radius: 100%;
+  padding: 1%;
+}
+
+.details-card {
+  margin: 70px 0px 0px 70px;
+}
+
+.result-card {
+  display: inline-block;
+  margin: 50px 100px 0px 70px;
+  min-width: 490px;
+}
+
+.footer {
+  bottom: 0;
+  color: #ffffff;
+  height: 2em;
+  left: 0;
+  position: relative;
+  font-size: small;
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.welmessage-area {
+  max-width: 700px;
+  min-width: 100px;
+}
+
+.action-guild {
+  margin: 70px 0px 30px 70px;
+}
+
+.login-btn {
+  margin-left: 15px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+.guild-name,
+.guild-members,
+.label,
+.username-l {
+  color: #ffffff;
+}
+
+.navbar-burger:hover,
+.navbar-burger:active {
+  color: #ffffff;
+}
+
+.err-s {
+  font-size: 20px;
+}
+
+.mouse {
+  margin: 50px auto;
+  width: 100px;
+}
+.mouse-icon {
+  width: 25px;
+  height: 45px;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+.mouse-wheel {
+  height: 6px;
+  margin: 2px auto 0;
+  display: block;
+  width: 3px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: 1.6s ease infinite wheel-up-down;
+  -moz-animation: 1.6s ease infinite wheel-up-down;
+  animation: 1.6s ease infinite wheel-up-down;
+}
+@-webkit-keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+@-moz-keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+@keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
